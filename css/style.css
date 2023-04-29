@@ -184,3 +184,72 @@ margin: .5rem 0;
 
 
 /* Seccion quienes somos termina */
+
+
+/* Mobile optimizations */
+
+@media screen and (max-width:767px){
+  body{
+    overflow-x:hidden;
+    display: block;
+  }
+
+  h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem ;
+  }
+  h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1rem ;
+  }
+
+  .title-header{
+    width: 90%;
+    margin: 1.5rem;
+  }
+
+  .resources{
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+
+  .newsletter-form-container{
+    width: 100%;
+  }
+
+  .mockup{
+    width:250px;
+    height:350px;
+    transform: rotate(0deg);
+  }
+
+  .warranties-icons{
+    flex-direction: column;
+  }
+
+  #quienes-somos{
+    padding: 2rem;
+  }
+  .quienes-somos-texto{
+    width: 90%;
+  }
+
+  .quienes-somos-cuerpo{
+    text-align: justify;
+  }
+
+  .quienes-somos-logo{
+    width: 20%;
+  }
+
+
+}
+
+
+/* Mobile optimizations */
+
